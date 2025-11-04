@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "Anyone there?", "Greetings", "Hii", "Heyy", "Hello bot", "What's up", "Yo", "Good afternoon"],
+      "responses": ["Hello! What are the Queries you have?"]
+    },
+    {
+      "tag": "event_info",
+      "patterns": ["When is the event?", "Event date", "Where is the venue?", "When the event scheduled", "Event time?", "Event details pls", "Eppo event?", "College event date?", "Start time of event", "When will program start"],
+      "responses": ["The event will take place on Hackathon - Oct 17,10:21 AM(BIT Auditorium), Workshop - Oct 23, 10:00 AM(Kumaraguru college of Engineering), Yugam'25 - Oct 10, 10:40 AM(BIT Auditorium), ITRONS - Oct 16, 3:00PM(BIT Auditorium), Lunara - Nov 30, 11:00 AM(BIT Seminar Hall3)." ]
+    },
+    {
+      "tag": "registration",
+      "patterns": ["How can I register?", "Event registration details", "Is there any registration fee?", "Last date for registration", "Where do I register?", "How to apply?", "Registration process?", "Event entry fee?", "Deadline for registration", "Register link?", "Plz tell registration info"],
+      "responses": ["You can register online through our official website. To register for an event login into event hub, load events, all the details will be provided in the respected events.Kindly pay and register for an event."]
+    },
+    {
+      "tag": "prizes",
+      "patterns": ["Winner prize details", "Is there any cash prize?", "What winners get?", "Rewards for event?", "Prize money?", "Any trophies?", "Participation certificate?"],
+      "responses": [" All participants will receive participation certificates. Top 3 teams will also receive trophies."]
+    },
+    {
+      "tag": "accommodation",
+      "patterns": ["Accommodation available?", "Where can I stay?", "Food and stay details", "Will accommodation be arranged for participants?", "Hostel facility?", "Stay options?", "Room available?", "Event stay info", "Is food included?"],
+      "responses": ["Yes, accommodation is available in the college hostel for outstation participants. Accommodation charges are 500 rupees per day including food. Please contact the helpdesk after registration for hostel booking."]
+    },
+    {
+      "tag": "events_list",
+      "patterns": ["What are the events?", "List of competitions", "Which events are there?", "Give me event details", "Tell me the events", "Competitions list?", "Programs in event?", "Activities planned?", "Event schedule?", "Events inside fest"],
+      "responses": ["The event is for technical rounds and workshop which include Hackathon, Yugam'25, IEEE Paper Presentation, Lunara and ITRONS."]
+    },
+    {
+      "tag": "rules",
+      "patterns": ["rules", "Event rules", "Any guidelines?", "Tell me the event rules", "Is there any dress code?", "Participation rules?", "Regulations for event?", "Do's and Don'ts?", "Instructions?", "Competition rules?"],
+      "responses": ["Each participant must carry their college ID. Formal dress is mandatory for this event. Mobile phones are strictly prohibited during the event."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["Who to contact?", "Event in-charge details", "Whom should I call?", "Need helpdesk number", "Contact information", "Phone number?", "Coordinator details?", "Email ID?", "Any helpline?", "Event support contact"],
+      "responses": ["You can contact the event coordinator at +91-9342034934 or email us at helpdesk@gmail.com for any queries related to the event."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you", "Thanks", "Talk to you later", "Catch you later", "Okay bye", "See ya", "Tata", "Thank you"],
+      "responses": ["Goodbye! All the best for the event!"]
+    }
+  ]
+}
