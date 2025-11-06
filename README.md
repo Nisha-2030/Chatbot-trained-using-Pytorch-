@@ -45,7 +45,7 @@ The chatbot is already integrated into the main Event Management System:
 
 1. **Start the main application:**
    ```bash
-   cd sample/client
+   cd chatbot/frontend
    npm start
    ```
 
